@@ -3,3 +3,8 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+.carousel-item {
+    max-height: 75vh;
+    overflow:hidden
+}
