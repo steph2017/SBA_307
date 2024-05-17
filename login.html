@@ -23,8 +23,9 @@
     align-content: center;
 }
 #login-card {
-    justify-self: center;
+    /* justify-self: center; */
     margin: 75px;
+    align-items: center;
 }
 
 .login-custom {
@@ -53,8 +54,15 @@ a {
         }
     #login-card {
         display:flex;
+        justify-content: center;
         
     }
+    #login-bkgrd {
+        display:flex;
+        justify-content: center;
+        
+    }
+
 
 
 </style>
@@ -70,9 +78,9 @@ a {
       <!-- login card -->
       <div class="container-fluid" id="login-bkgrd" >
         <div class="text-center"><h1 >Welcome Back, Beautiful!</h1></div>
-        <div class="card text-bg-light" style="max-width: 36rem;" id="login-card">
+        <div class="card text-bg-light mx-auto"  id="login-card">
             
-            <div class="card-body login-custom">
+            <div class="card-body login-custom" style="max-width: 36rem;" >
                 <form>
                     <div class="mb-3">
                       <label for="UserEmail" class="form-label">Email address</label>
