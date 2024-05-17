@@ -1,11 +1,10 @@
 /* Color palette from coloors: 
-FFDFD0 or #FFEEE6 - logo
-FFC6AC - body
-BDDBD0 - navbar
-6B4B3E - header text
-949387 - secondary text
-FFFEC8 - light background
-
+#FFEEE6 - logo light pink
+#FFC6AC - body sandy pink
+#BDDBD0 - navbar tealish
+#6B4B3E - brown header text
+#949387 - secondary text
+#FFDFD0 - pink accent
 
 */
 
@@ -29,6 +28,11 @@ body {
 
 #aboutMe,#feedbackCardCn,#footer,#faq-bkgrd,#login-bkgrd {
 background-color: #FFC6AC  ;
+padding: 50px;
+}
+
+#feedbackCard, .faq-custom {
+    background-color: #FFDFD0;
 }
 
 #bri-photo {
