@@ -9,8 +9,12 @@ FFFEC8 - light background
 
 */
 
+body {
+    background-color: #BDDBD0 ;
+}
 
-#aboutMe,#feedbackCardCn,#footer {
+
+#aboutMe,#feedbackCardCn,#footer,#faq-bkgrd,#login-bkgrd {
 background-color: #BDDBD0 ;
 }
 
