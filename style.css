@@ -1,7 +1,7 @@
 /* Color palette from coloors: 
-6b4b3e - logo
-FFC6AC - navbars
-BDDBD0 - primary background
+FFDFD0 or #FFEEE6 - logo
+FFC6AC - body
+BDDBD0 - navbar
 6B4B3E - header text
 949387 - secondary text
 FFFEC8 - light background
@@ -14,6 +14,13 @@ body {
     background-color: #FFC6AC;
 }
 
+.logo-nav {
+    font-family: "League Script", cursive;
+  font-weight: 1000;
+  font-style:italic;
+  font-size: 80px;
+  color: #FFEEE6;
+}
 
 .navbar-custom {
     background-color: #BDDBD0;
