@@ -1,3 +1,19 @@
+/* Color palette from coloors: 
+6b4b3e - logo
+FFC6AC - navbars
+BDDBD0 - primary background
+6B4B3E - header text
+949387 - secondary text
+FFFEC8 - light background
+
+
+*/
+
+
+#aboutMe,#feedbackCardCn,#footer {
+background-color: #BDDBD0 ;
+}
+
 #bri-photo {
     /* display: block; */
     max-width: 50%;
