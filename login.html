@@ -18,12 +18,32 @@
 <style>
 #login-bkgrd {
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
 #login-card {
+    justify-self: center;
     margin: 75px;
 }
+
+.login-custom {
+    justify-self: center;
+}
+
+h1 {
+    font-family: "League Script", cursive;
+  font-weight: 400;
+  font-style:italic;
+  font-size: 60px;
+  color: #6B4B3E;
+}
+
+label {
+    color: #6B4B3E;
+}
+
+
 
 </style>
     <title>Beauty By Bri - Login or Sign Up</title>
@@ -38,7 +58,7 @@
       <!-- login card -->
       <div class="container-fluid" id="login-bkgrd">
         <div class="text-center"><h1 style="display:block;justify-self:center;">Welcome Back, Beautiful!</h1></div>
-        <div class="card text-bg-light mb-3 login-custom" style="max-width: 36rem;" id="login-card">
+        <div class="card text-bg-light" style="max-width: 36rem;" id="login-card">
             
             <div class="card-body login-custom">
                 <form>
@@ -53,7 +73,7 @@
                         Your password must be 8-20 characters long, and have at least 1 of the following: upper-case letter, lower-case letter, number, and special character.
                       </div>
                     <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-primary" id="btn-custom">Login</button>
                     </div>
                     <div class="form-text text-center" id="basic-addon4">New to Beauty by Bri? <a href="Index.html"> Create an Account</a></div>
                   </form>
