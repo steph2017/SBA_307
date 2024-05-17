@@ -9,4 +9,9 @@
     height: 75vh;
     object-fit: cover; 
     object-position: 50% 50%;
+
+}
+
+#feedbackCardCn {
+    max-width: 500px;
 }
