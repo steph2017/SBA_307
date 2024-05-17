@@ -9,18 +9,19 @@ FFFEC8 - light background
 
 */
 
+/* update color of pages */
 body {
-    background-color: #BDDBD0 ;
+    background-color: #FFC6AC;
 }
 
-/* the below didn't work */
+
 .navbar-custom {
-    background-color: #FFC6AC;
+    background-color: #BDDBD0;
    
 } 
 
 #aboutMe,#feedbackCardCn,#footer,#faq-bkgrd,#login-bkgrd {
-background-color: #BDDBD0 ;
+background-color: #FFC6AC  ;
 }
 
 #bri-photo {
